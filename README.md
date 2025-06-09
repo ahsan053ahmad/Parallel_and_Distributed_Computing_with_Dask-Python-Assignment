@@ -1,11 +1,11 @@
-# Parallel_and_Distributed_Computing_with_Dask-Python-Assignment
+# Parallel_and_Distributed_Computing_with_Dask-Python
 
 This repository contains my submission for exploring **parallel and distributed computing** using the **Dask** library in Python.  
 The assignment emphasizes how to handle larger-than-memory datasets, perform parallel computations efficiently, and accelerate machine learning workflows on single and multiple cores.
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 Modern data science workflows often encounter datasets too large to fit in memory or processes that are too slow for practical use on a single core.  
 Traditional Python libraries like NumPy and Pandas struggle with such scaling.  
@@ -15,7 +15,7 @@ The goal was to practice parallel computing fundamentals, task graph visualizati
 
 ---
 
-### 📦 Dataset Overview
+### Dataset Overview
 
 The dataset used was **domestic flights from NYC airports (JFK, EWR, LGA)** from **1990 to 1999**, split across multiple `.csv` files.  
 Key characteristics:
@@ -28,7 +28,7 @@ The dataset simulated the challenges of **larger-than-memory processing** by agg
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 The assignment was designed to:
 
@@ -45,7 +45,7 @@ The assignment was designed to:
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 **1. Environment Setup:**
 - Installed Dask, graphviz, and associated libraries
@@ -81,7 +81,7 @@ The assignment was designed to:
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 This project demonstrates critical, real-world capabilities such as:
 
@@ -93,7 +93,7 @@ This project demonstrates critical, real-world capabilities such as:
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - Correctly setting data types during CSV imports (important to avoid type errors)
 - Understanding lazy evaluation: remembering to use `.compute()` where necessary
